@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baby Shower de Zaid Mateo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="fondo-patron"></div>
+  
+  <div class="decoracion-fondo">
+    <div class="circulo circulo-1"></div>
+    <div class="circulo circulo-2"></div>
+    <div class="circulo circulo-3"></div>
+  </div>
+
+  <main class="invitacion">
+    
+    <div class="cabecera animar-entrada" style="animation-delay: 0.1s;">
+      <p class="bienvenida">¡Acompáñanos a celebrar!</p>
+      <h1>Baby Shower</h1>
+      <p class="nombre-bebe">Zaid Mateo</p>
+    </div>
+
+    <div class="img-carlitos animar-entrada" style="animation-delay: 0.2s;">
+      <img src="carlitos.png" alt="Carlitos">
+    </div>
+
+    <div class="papas animar-entrada" style="animation-delay: 0.3s;">
+      <p class="etiqueta">Con la bendición de sus papás</p>
+      <p class="nombres-papas">Sarahí Cordero Olivares<br>Carlos Villantes Torres</p>
+    </div>
+
+    <div class="seccion-contador animar-entrada" style="animation-delay: 0.4s;">
+      <div class="img-contador">
+        <img src="medio.png" alt="Medio">
+      </div>
+      <div class="countdown" id="countdown">
+        <div class="countdown-item">
+          <span id="dias">0</span>
+          <small>Días</small>
+        </div>
+        <div class="countdown-item">
+          <span id="horas">0</span>
+          <small>Horas</small>
+        </div>
+        <div class="countdown-item">
+          <span id="minutos">0</span>
+          <small>Min</small>
+        </div>
+        <div class="countdown-item">
+          <span id="segundos">0</span>
+          <small>Seg</small>
+        </div>
+      </div>
+    </div>
+
+    <section class="detalles animar-entrada" style="animation-delay: 0.5s;">
+      <div class="detalle-item">
+        <span class="icono">📅</span>
+        <div class="detalle-texto">
+          <strong>Fecha</strong>
+          <p>Sábado 13 de diciembre de 2026</p>
+        </div>
+      </div>
+      <div class="detalle-item">
+        <span class="icono">🕓</span>
+        <div class="detalle-texto">
+          <strong>Hora</strong>
+          <p>(Por definir)</p>
+        </div>
+      </div>
+      <div class="detalle-item">
+        <span class="icono">📍</span>
+        <div class="detalle-texto">
+          <strong>Lugar</strong>
+          <p>(Por definir)</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="mapa-contenedor animar-entrada" style="animation-delay: 0.6s;">
+      <div class="mapa-wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.489!2d-99.1332!3d19.4326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI1JzU3LjQiTiA5OcKwMDcnNTkuNSJX!5e0!3m2!1ses!2smx!4v1700000000000"
+          width="100%"
+          height="220"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <a class="btn-maps" href="https://www.google.com/maps/search/?api=1&query=19.4326,-99.1332" target="_blank">
+        <span class="icono-maps">📍</span> Abrir en Google Maps
+      </a>
+    </div>
+
+    <div class="img-mungo animar-entrada" style="animation-delay: 0.7s;">
+      <img src="mundo.png" alt="Mungo">
+    </div>
+
+    <button id="btn-confirmar" class="animar-entrada" style="animation-delay: 0.8s;">Confirmar por WhatsApp</button>
+  </main>
+
+  <audio id="musicaFondo" src="musica.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

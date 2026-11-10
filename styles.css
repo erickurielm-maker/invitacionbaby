@@ -152,6 +152,26 @@ h1 {
   animation: flotarPersonaje 4s ease-in-out infinite;
 }
 
+/* NUEVO ESTILO PARA EL MENSAJE */
+.mensaje-especial {
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+
+.mensaje-especial p {
+  font-size: 1.05rem;
+  color: var(--azul-oscuro);
+  font-style: italic;
+  line-height: 1.6;
+  font-weight: 400;
+  background: var(--azul-claro);
+  padding: 15px 20px;
+  border-radius: 15px;
+  border-left: 4px solid var(--naranja);
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+}
+
 .papas {
   margin-bottom: 30px;
   padding: 20px;

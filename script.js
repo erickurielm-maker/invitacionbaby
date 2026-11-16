@@ -1,4 +1,4 @@
-const fechaEvento = new Date('2026-12-13T16:00:00').getTime();
+const fechaEvento = new Date('2026-12-13T15:30:00').getTime();
 
 function actualizarCountdown() {
   const ahora = new Date().getTime();
